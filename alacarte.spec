@@ -23,6 +23,7 @@ BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  libxslt
 BuildRequires:  docbook-style-xsl
+BuildRequires:  gnome-common
 Requires:       gnome-menus >= 3.2.0.1
 Requires:       gtk3
 Requires:       pygobject3
