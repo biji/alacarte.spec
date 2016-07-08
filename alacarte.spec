@@ -37,10 +37,12 @@ should work with any desktop environment that uses this specification.
 %prep
 %setup -q
 
-pwd
-ls -alh
+#pwd
+#ls -alh
 
-autoreconf -i -f
+#autoreconf -i -f
+./autogen.sh
+
 
 %build
 %configure
